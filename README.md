@@ -99,6 +99,7 @@ cd
 cd drone_acrobatics_ws
 . ./catkin_dda/devel/setup.bash
 conda activate drone_flow
+cd catkin_dda/src/deep_drone_acrobatics/controller_learning/
 python test_trajectories.py --settings_file=config/test_settings.yaml
 
 ```
@@ -122,6 +123,7 @@ cd
 cd drone_acrobatics_ws
 . ./catkin_dda/devel/setup.bash
 conda activate drone_flow
+cd catkin_dda/src/deep_drone_acrobatics/controller_learning/
 python iterative_learning_trajectories.py --settings_file=config/dagger_settings.yaml
 ```
 
@@ -138,6 +140,7 @@ cd
 cd drone_acrobatics_ws
 . ./catkin_dda/devel/setup.bash
 conda activate drone_flow
+cd catkin_dda/src/deep_drone_acrobatics/controller_learning/
 python train.py --settings_file=config/train_settings.yaml
 ```
 
@@ -158,6 +161,7 @@ cd
 cd drone_acrobatics_ws
 . ./catkin_dda/devel/setup.bash
 conda activate drone_flow
+cd catkin_dda/src/deep_drone_acrobatics/controller_learning/
 python test_trajectories.py --settings_file=config/test_settings.yaml
 
 ```
